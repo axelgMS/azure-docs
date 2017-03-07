@@ -68,9 +68,9 @@ For N-series VM specs, storage capacities, and disk details, see [Sizes for virt
 4. Change to the directory containing the driver installer and run commands similar to the following:
 
     ```bash
-    chmod +x NVIDIA-Linux-x86_64-367.48.run
+    chmod +x /tmp/NVIDIA-Linux-x86_64-367.48.run
     
-    sudo sh ./NVIDIA-Linux-x86_64-367.48.run
+    sudo sh /tmp/NVIDIA-Linux-x86_64-367.48.run
     ```
 
 ## Verify driver installation
