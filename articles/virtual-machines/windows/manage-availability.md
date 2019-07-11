@@ -30,3 +30,4 @@ For instructions on creating and using availability sets when using the classic 
 ## Next steps
 To learn more about load balancing your virtual machines, see [Load Balancing virtual machines](tutorial-load-balancer.md?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json).
 
+test
