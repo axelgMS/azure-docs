@@ -40,6 +40,8 @@ If you use one of the default storage classes, you can't update the volume size 
 
 For example, if you want to use a disk of size 4 TiB, you must create a storage class that defines `cachingmode: None` because [disk caching isn't supported for disks 4 TiB and larger](../virtual-machines/windows/premium-storage-performance.md#disk-caching).
 
+Add a testing note
+
 For more information about storage classes and creating your own storage class, see [Storage options for applications in AKS][storage-class-concepts].
 
 Use the [kubectl get sc][kubectl-get] command to see the pre-created storage classes. The following example shows the pre-create storage classes available within an AKS cluster:
